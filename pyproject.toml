@@ -1,0 +1,13 @@
+[project]
+name = "ci-cd-terraform"
+version = "0.1.0"
+description = "CI/CD Terraform Infrastructure"
+authors = [
+    {name = "Mark Henry Atwood"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.97.4
+    hooks:
+      - id: terraform_fmt
+        args:
+          - --args=--tf-path="C:/infra/tools/terraform/terraform.exe"
+      - id: terraform_validate
+        args:
+          - --args=--tf-path="C:/infra/tools/terraform/terraform.exe"
+#      - id: terraform_tflint
+#        args:
+#          - --args=--tf-path="C:/ProgramData/chocolatey/bin/tflint.exe"
+#      - id: terraform_trivy

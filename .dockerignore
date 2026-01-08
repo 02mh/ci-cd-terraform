@@ -1,0 +1,23 @@
+# Terraform artifacts
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Git
+.git/
+
+# IDEs
+.idea/
+.vscode/
+
+# Other
+*.log
